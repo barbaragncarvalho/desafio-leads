@@ -7,5 +7,4 @@ public class ApplicationDbContext : DbContext
     }
 
     public DbSet<Lead> Leads { get; set; }
-    public DbSet<Contact> Contacts { get; set; }
 }
